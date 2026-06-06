@@ -3,7 +3,7 @@ CC = gcc
 CFLAGS = -I./include -Wall -Wextra -O2
 LDFLAGS = 
 
-SRC = kernel/main.c drivers/universal_bridge.c drivers/samsung_bridge.c drivers/redmi_bridge.c
+SRC = kernel/main.c hal/ais_hal.c drivers/universal_bridge.c drivers/samsung_bridge.c drivers/redmi_bridge.c
 OBJ = $(SRC:.c=.o)
 TARGET = ais_kernel.bin
 
