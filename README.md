@@ -1,13 +1,13 @@
 # AIS - Adaptive Intelligent System
 
-**AIS** es un sistema operativo móvil revolucionario diseñado desde cero. Su misión es romper las barreras de compatibilidad entre fabricantes de hardware, permitiendo que un solo sistema operativo funcione en cualquier dispositivo móvil mediante una capa de drivers universales.
+**AIS** es un sistema operativo revolucionario diseñado desde cero para arquitecturas de computadora (**x86_64**). Su misión es romper las barreras de compatibilidad de hardware mediante una capa de drivers universales, permitiendo una experiencia fluida y segura en cualquier PC.
 
 ## Características Principales
 
 - **Arquitectura de Drivers Universales:** Capacidad para cargar y ejecutar drivers de diferentes fabricantes (Samsung, Redmi, etc.) de forma nativa.
 - **Microkernel Híbrido:** Un núcleo ligero y eficiente diseñado para la seguridad y el rendimiento.
 - **Capa de Abstracción de Hardware (HAL) Inteligente:** Traduce las peticiones del sistema a comandos específicos del hardware en tiempo real.
-- **Portabilidad Total:** Diseñado para ser instalado en cualquier teléfono con arquitectura ARM.
+- **Portabilidad en PC:** Diseñado para ejecutarse en cualquier computadora moderna mediante soporte UEFI y x86_64.
 
 ## Estructura del Proyecto
 

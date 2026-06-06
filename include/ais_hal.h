@@ -2,8 +2,7 @@
 #define AIS_HAL_H
 
 /* 
- * AIS HAL - Hardware Abstraction Layer
- * Define las interfaces estándar que todos los drivers deben implementar
+ * AIS HAL - Hardware Abstraction Layer (PC x86_64)
  */
 
 typedef struct {
@@ -17,6 +16,7 @@ typedef struct {
 void ais_hal_init(void);
 void ais_driver_bridge_init(void);
 void ais_load_compatible_drivers(void);
+void ais_pci_scan(void);
 void ais_core_services_start(void);
 void ais_schedule(void);
 
